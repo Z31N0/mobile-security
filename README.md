@@ -213,15 +213,3 @@ The application implements root detection to block functionality on compromised 
 - **Behaviour:** If the `isDeviceRooted()` function returns `true`, `isAccessSecure()` also returns `false`. This causes the login process to fail, and the user is shown a generic error message ("Invalid login, or the device might be rooted."). This blocks the login functionality on rooted devices.
 
 ![alt text](Images-README/device-is-rooted-error.png)
-
-## Link to Panopto video
-
-https://howest.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6a5dcde1-e07b-46a1-abce-b3b500c60904
-
-## Repositories
-
-- Code
-  - https://gitlab.ti.howest.be/ti/2025-2026/s3/mobilesecurity/students/group-30/catsadoptionshop
-- APKs
-  - Base: https://gitlab.ti.howest.be/ti/2025-2026/s3/mobilesecurity/students/group-30/catsadoptionshop/-/blob/main/APK/CatAdoptionShop.apk
-  - Injected and edited: https://gitlab.ti.howest.be/ti/2025-2026/s3/mobilesecurity/students/group-30/catsadoptionshop/-/blob/main/APK/Aligned_Injected_CatAdoptionShop.apk
